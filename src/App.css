@@ -1,38 +1,450 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logindiv{
+  width: 100%;
+  height: 100vh;
+  background-color: #1F3DA8;
   display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.into{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.loginform{
+  width: 30%;
+  height: 320px;
+  background-color: white;
+  border-radius: 20px;
+}
+.ad{
+  font-size: 32px;
+  font-weight: bold;
+  color: #1F3DA8;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.wrapp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.user{
+  color: #1F3DA8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.usertext{
+  width: 250px;
+  border: solid 2px #4163dd;
+  height: 35px;
+  outline: none;
+  font-size: 18px;
+}
+.usertextt{
+  width: 250px;
+  border: solid 3px #6381eb;
+  height: 35px;
+  outline: none;
+  font-size: 18px;
+}
+.submitt{
+  width: 270px;
+  border: solid 3px #4163dd;
+  height: 38px;
+  color: white;
+  background-color: #1F3DA8;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 23px;
+  margin-left: 21%;
+}
+.submiter{
+  width: 270px;
+  border: solid 3px #4163dd;
+  height: 38px;
+  color: white;
+  background-color: #1F3DA8;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: -63px;
+
+}
+.submitt:hover{
+  background-color: #4367ec;
+}
+.submiter:hover{
+  background-color: #4367ec;
+}
+.header{
+  width: 100%;
+  height: 55px;
+  background-color: #1F3DA8;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.logo{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 70px;
+  color: white;
+  margin-top: 7px;
+  position: absolute;
+}
+.divnav{
+  margin-left: 120px;
+  position: absolute;
+}
+.linkk{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  color: white;
+  margin-top: 10px;
+  position: absolute;
+}
+.linkkk{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 210px;
+  color: white;
+  margin-top: 10px;
+  position: absolute;
+}
+.linkkkk{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 343px;
+  color: white;
+  margin-top: 10px;
+  position: absolute;
+}
+.linkkkk:hover {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.linkkk:hover{
+  color: white;
+}
+.linkk:hover{
+  color: white;
+}
+.signout{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  float: right;
+  margin-right: 70px;
+}
+.signout:hover{
+  color: white;
+}
+.bodyy{
+  width: 100%;
+  height: 85vh;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  width: 100%;
+  height: 55px;
+  background-color: #1F3DA8;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+.sel{
+  margin-left: 10px;
+  border: solid 3px #1F3DA8;
+  outline: none;
+  width: 120px;
+}
+.tablee{
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+.titlee{
+  background-color: #1F3DA8;
+  font-size: 20px;
+  color: white;
+}
+.childd{
+  height: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.detail{
+width: 130px;
+height: 40px;
+color: #1F3DA8;
+text-align: center;
+margin-top: 70px;
+padding-top: 8px;
+font-weight: bold;
+font-size: 25px;
+}
+.bodi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyyy{
+  margin-top: 7px;
+  width: 100%;
+  min-height: 93vh;
+  background-color: #1F3DA8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inform{
+  width: 35%;
+  min-height: 500px;
+  background-color: white;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.informm{
+  width: 35%;
+  min-height: 450px;
+  background-color: white;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.names{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.inputss{
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  
+}
+.viewme{
+  width: 450px;
+  height: 400px;
+  background-color: rgb(245, 246, 248);
+  margin-top: 15px;
+}
+.viewtable{
+  width: 100%;
+  height: 100%;
+  
+}
+.view1{
+  font-size: 19px;
+  font-weight: 500;
+  width: 42%;
+  padding-left: 15px;
+  color: rgb(27, 27, 27);
+  border-right: solid 1px rgb(37, 37, 37);
+  border-bottom: solid 1px rgb(37, 37, 37);
+}
+.view2{
+  padding-left: 15px;
+  border-bottom: solid 1px rgb(37, 37, 37);
+}
+.back{
+  width: 100px;
+  height: 40px;
+  background-color: #1F3DA8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-left: 40%;
+}
+.back:hover{
+  background-color: #4e6fe7;
+  border: solid 3px #1F3DA8;
+}
+.noshow{
+  height: 60px;
+  width: 150px;
+  background-color: #1F3DA8;
+  margin-top: 56px;
+  position: absolute;
+  margin-left: 30%;
+}
+.nowshow{
+  background-color: #1F3DA8;
+  color: white;
+  font-size: 16px;
+  width: 150px;
+ text-decoration: none;
+ margin-bottom: 5px;
+
+}
+.nowshow:hover{
+ font-size: 18px;
+ color: white;
+ text-decoration: none;
+
+}
+.lookbtn{
+  width: 60px;
+  font-weight: bold;
+  border: solid 2px blue;
+  display: block;
+}
+.myshoww{
+  display: block;
+}
+.showing{
+  display: none;
+}
+.showingg{
+  display: none;
+}
+.yoga{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+   align-items: center;
+}
+@media only screen and (max-width: 1268px){
+  .logindiv{
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .myshoww{
+    display: none;
+  }
+  .lookbtn{
+    display: block;
+  }
+
+  .into{
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .loginform{
+    width: 75%;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    align-self: center;
+    margin-top: 20px;
+  }
+  .wrap{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitt{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bodyy{
+    width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+   
+  }
+  .tablee{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .showing{
+    display: block;
+  }
+  .bodi{
+    width: 100%;
+  }
+  .detail{
+    margin-top: 20px;
+    }
+    .viewme{
+      width: 90%;
+      margin-top: 15px;
+      height: 380px;
+    }
+    .viewtable{
+      width: 100%;
+    }
+    .back{
+      margin-bottom: 30px;
+    }
+    .bodyyy{
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .informm{
+      width: 90%;
+     
+    }
+    .inform{
+      width: 90%;
+    }
+    .names{
+      margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 465px){
+  .names h5{
+    display: none;
+  }
+  .showingg{
+    display: block;
+  }
+  .submiter{
+    margin-top: -50px;
+  }
+  #horn{
+    margin-bottom: 80px;
+  }
+  .informm{
+    height: 570px;
+  }
+  .yoga{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer{
+    display: none;
   }
 }
+
+@media only screen and (max-width: 610px){
+  .footer{
+    display: none;
+  }
+}
+
+
+

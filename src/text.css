@@ -1,0 +1,121 @@
+.text{
+    display: flex;
+    background-color: rgb(4, 66, 56);
+    width: 100%;
+    height: 100vh;
+}
+.imglogo{
+    width: 60px;
+    height: 70px; 
+    
+}
+.imglogoo{
+    width: 60px;
+    height: 70px; 
+    
+}
+.club{
+    margin-top: -10px;
+    color: white;
+}
+.cluv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.first{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(4, 66, 56);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wel{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inp{
+    margin-top: -25px;
+    /* position: absolute; */
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px rgb(8, 131, 110);
+    outline: none;
+    color: rgb(4, 66, 56);
+    font-size: 17px;
+}
+.ppp{
+    /* position: absolute; */
+    margin-top: 35px;
+}
+.wrop{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px rgb(8, 131, 110); 
+    margin-top: -17px;
+}
+.second{
+    display: flex;
+   width: 100%;
+   height: auto;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.song{
+    width: 350px;
+    height: 45px;
+    border-radius: 13px;
+    background-color: rgb(4, 66, 56);
+    color: white;
+    border: none;
+}
+.song:hover{
+    background-color: rgb(8, 131, 110);
+}
+.mypass{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+   
+    color: rgb(4, 66, 56);
+}
+
+@media only screen and (max-width: 600px){
+    .first{
+     align-items: flex-start;
+    }
+    .wel{
+        margin-left: 5%;
+    }
+    .imglogoo{
+        margin-left: 5%;
+    }
+    .text{
+        width: 100%;
+        height: 100vh;
+    }
+    .signin{
+        width: 100%;
+        height: 100vh;   
+    }
+}
+@media only screen and (max-width: 375px){
+    .signin{
+        width: 375px;
+    }
+}
