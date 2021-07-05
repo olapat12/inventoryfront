@@ -1,5 +1,6 @@
 {
   "name": "catholic",
+  "homepage": "https://frontend.wocamail.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
