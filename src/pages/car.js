@@ -9,9 +9,10 @@ const Car = ()=>{
 
     useEffect(()=>{
 
-        axios.get('https://autobackend20.herokuapp.com/all')
+        axios.get('https://backend-2021.herokuapp.com/all')
         .then(res=> {
             setAllcar(res.data)
+            
             setLoading(false)
         })
         .catch(err => setLoading(false))

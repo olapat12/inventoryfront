@@ -41,7 +41,12 @@ const Login = ()=>{
                 setLoading(false)
             }
         })
-        .catch(err => setLoading(false))
+        .catch(err => {
+            setLoading(false)
+            setError('Something went wrong, please try again')
+        }
+            
+            )
         
     }
 
